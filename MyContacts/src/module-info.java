@@ -4,4 +4,5 @@ module MyContacts {
     requires java.xml;
 
     opens sample;
+    opens sample.datamodel;
 }
